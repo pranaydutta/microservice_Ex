@@ -1,6 +1,5 @@
 spring:
-  application:
-    name: forex-service
+  
   jpa:    show-sql: true
     database-platform: org.hibernate.dialect.H2Dialect
     hibernate:      ddl-auto: create
@@ -12,4 +11,4 @@ spring:
   data:    jpa:      repositories:        bootstrap-mode: default
   h2:    console:      enabled: true
    
-server:  port: 8000
+server:  port: 8004
